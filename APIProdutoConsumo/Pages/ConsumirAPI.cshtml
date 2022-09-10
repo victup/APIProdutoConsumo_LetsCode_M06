@@ -1,0 +1,20 @@
+﻿@page
+@model APIProdutoConsumo.Pages.ConsumirAPIModel
+@{
+     ViewData["Title"] = "Consumindo uma API";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Consumindo a API</p>
+
+<div>
+    <span id='result'></span>
+</div>
+
+<ul>
+    <li>
+        <input type="button" value="GET produtos"
+               onclick="MyTestCors('https://localhost:7073', '/produto', 'GET', true)" />
+    </li>
+</ul>
+
