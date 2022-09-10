@@ -48,4 +48,3 @@ Ainda no projeto de APIProdutos, abra o arquivo Program.cs
 ![image](https://user-images.githubusercontent.com/38474570/189463794-afb4274f-ec15-4594-a75f-01408cb29b40.png)
 
 
-
